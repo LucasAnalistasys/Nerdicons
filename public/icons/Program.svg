@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="OBJECT"
+   viewBox="0 0 512 512"
+   version="1.1"
+   sodipodi:docname="Program.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview29"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.80957031"
+     inkscape:cx="55.585042"
+     inkscape:cy="274.21954"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g24" />
+  <defs
+     id="defs4">
+    <rect
+       x="-627.49337"
+       y="33.351025"
+       width="470.62002"
+       height="211.22316"
+       id="rect366" />
+    <style
+       id="style2">
+      .cls-1 {
+        fill: #FD4360;
+      }
+
+      .cls-2 {
+        fill: #dadada;
+      }
+    </style>
+  </defs>
+  <g
+     id="g24">
+    <path
+       class="cls-2"
+       d="M412.5,0H22.5C10.09,0,0,10.09,0,22.5V399.5c0,12.41,10.09,22.5,22.5,22.5H229.5c4.14,0,7.5-3.36,7.5-7.5s-3.36-7.5-7.5-7.5H22.5c-4.14,0-7.5-3.36-7.5-7.5V75H420v234.5c0,4.14,3.36,7.5,7.5,7.5s7.5-3.36,7.5-7.5V22.5c0-12.41-10.09-22.5-22.5-22.5ZM15,60V22.5c0-4.14,3.36-7.5,7.5-7.5H412.5c4.14,0,7.5,3.36,7.5,7.5V60H15Z"
+       id="path6" />
+    <path
+       class="cls-2"
+       d="M52.5,30h-15c-4.14,0-7.5,3.36-7.5,7.5s3.36,7.5,7.5,7.5h15c4.14,0,7.5-3.36,7.5-7.5s-3.36-7.5-7.5-7.5Z"
+       id="path8" />
+    <path
+       class="cls-2"
+       d="M102.5,30h-15c-4.14,0-7.5,3.36-7.5,7.5s3.36,7.5,7.5,7.5h15c4.14,0,7.5-3.36,7.5-7.5s-3.36-7.5-7.5-7.5Z"
+       id="path10" />
+    <path
+       class="cls-2"
+       d="M152.5,30h-15c-4.14,0-7.5,3.36-7.5,7.5s3.36,7.5,7.5,7.5h15c4.14,0,7.5-3.36,7.5-7.5s-3.36-7.5-7.5-7.5Z"
+       id="path12" />
+    <path
+       class="cls-2"
+       d="M376,103.5H59c-12.41,0-22.5,10.09-22.5,22.5v140c0,12.41,10.09,22.5,22.5,22.5H376c12.41,0,22.5-10.09,22.5-22.5V126c0-12.41-10.09-22.5-22.5-22.5Zm7.5,162.5c0,4.14-3.36,7.5-7.5,7.5H59c-4.14,0-7.5-3.36-7.5-7.5V126c0-4.14,3.36-7.5,7.5-7.5H376c4.14,0,7.5,3.36,7.5,7.5v140Z"
+       id="path14" />
+    <path
+       class="cls-2"
+       d="M62.5,317c-12.41,0-22.5,10.09-22.5,22.5v20c0,12.41,10.09,22.5,22.5,22.5h120c12.41,0,22.5-10.09,22.5-22.5v-20c0-12.41-10.09-22.5-22.5-22.5H62.5Zm127.5,22.5v20c0,4.14-3.36,7.5-7.5,7.5H62.5c-4.14,0-7.5-3.36-7.5-7.5v-20c0-4.14,3.36-7.5,7.5-7.5h120c4.14,0,7.5,3.36,7.5,7.5Z"
+       id="path22" />
+    <text
+       xml:space="preserve"
+       id="text364"
+       style="font-size:14.6667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:justify;white-space:pre;shape-inside:url(#rect366);fill:#dadada;fill-opacity:1;stroke-width:0.917"
+       transform="matrix(8.1386012,0,0,8.1386012,5181.8405,-153.2249)"><tspan
+         x="-627.49414"
+         y="47.394928"
+         id="tspan713"><tspan
+           style="font-family:'Exo 2';-inkscape-font-specification:'Exo 2, '"
+           id="tspan711">CODE</tspan></tspan></text>
+  </g>
+  <path
+     class="cls-1"
+     d="M489.5,332h-215c-12.41,0-22.5,10.09-22.5,22.5v135c0,12.41,10.09,22.5,22.5,22.5h215c12.41,0,22.5-10.09,22.5-22.5v-135c0-12.41-10.09-22.5-22.5-22.5Zm-152.2,124.7c2.93,2.93,2.93,7.68,0,10.61-1.46,1.46-3.38,2.2-5.3,2.2s-3.84-.73-5.3-2.2l-40-40c-2.93-2.93-2.93-7.68,0-10.61l40-40c2.93-2.93,7.68-2.93,10.61,0,2.93,2.93,2.93,7.68,0,10.61l-34.7,34.7,34.7,34.7Zm66.97-92.88l-30,120c-.85,3.41-3.91,5.68-7.27,5.68-.6,0-1.21-.07-1.83-.23-4.02-1-6.46-5.08-5.46-9.1l30-120c1.01-4.02,5.08-6.46,9.1-5.46,4.02,1,6.46,5.08,5.46,9.1Zm73.03,63.48l-40,40c-1.46,1.46-3.38,2.2-5.3,2.2s-3.84-.73-5.3-2.2c-2.93-2.93-2.93-7.68,0-10.61l34.7-34.7-34.7-34.7c-2.93-2.93-2.93-7.68,0-10.61,2.93-2.93,7.68-2.93,10.61,0l40,40c2.93,2.93,2.93,7.68,0,10.61Z"
+     id="path26" />
+</svg>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="OBJECT"
+   viewBox="0 0 32 32"
+   version="1.1"
+   sodipodi:docname="battery - Copia.svg"
+   xml:space="preserve"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview17"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1.6191406"
+     inkscape:cx="150.38842"
+     inkscape:cy="63.613993"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="OBJECT" /><defs
+     id="defs4"><rect
+       x="-71.334137"
+       y="-12.506634"
+       width="33.351025"
+       height="31.189385"
+       id="rect300" /><style
+       id="style2">
+      .cls-1 {
+        fill: #FD4360;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #dadada;
+      }
+    </style><rect
+       x="-71.334137"
+       y="-12.506634"
+       width="33.351025"
+       height="31.189385"
+       id="rect424" /></defs><text
+     xml:space="preserve"
+     id="text298"
+     style="font-size:14.6667px;font-family:'Aeonik Fono TRIAL';-inkscape-font-specification:'Aeonik Fono TRIAL';text-align:justify;white-space:pre;shape-inside:url(#rect300);fill:#fd4360;fill-opacity:1;stroke-width:0.5"
+     transform="matrix(2.7966841,0,0,2.7966841,204.29699,25.227907)"><tspan
+       x="-71.333984"
+       y="1.3567456"
+       id="tspan1197"><tspan
+         style="font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, '"
+         id="tspan1195">T</tspan></tspan></text><text
+     xml:space="preserve"
+     id="text422"
+     style="font-size:14.6667px;font-family:'Aeonik Fono TRIAL';-inkscape-font-specification:'Aeonik Fono TRIAL';text-align:justify;white-space:pre;shape-inside:url(#rect424);fill:#dadada;fill-opacity:1;stroke-width:0.5"
+     transform="matrix(1.5083763,0,0,1.5083763,107.41155,26.968054)"><tspan
+       x="-71.333984"
+       y="1.3567456"
+       id="tspan1201"><tspan
+         style="font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, '"
+         id="tspan1199">T</tspan></tspan></text></svg>

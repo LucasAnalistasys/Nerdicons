@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="OBJECT" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #FD4360;
+      }
+
+      .cls-2 {
+        fill: #dadada;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-2" d="M18,11.5h-4c-.55,0-1,.45-1,1v7c0,.55,.45,1,1,1h4c.55,0,1-.45,1-1v-7c0-.55-.45-1-1-1Zm-1,7h-2v-5h2v5Z"/>
+    <path class="cls-2" d="M23,1H9c-.55,0-1,.45-1,1V30c0,.55,.45,1,1,1h14c.55,0,1-.45,1-1V2c0-.55-.45-1-1-1ZM15,3h2V7h-2V3Zm2,26h-2v-4h2v4Zm5,0h-3v-5c0-.55-.45-1-1-1h-4c-.55,0-1,.45-1,1v5h-3V3h3v5c0,.55,.45,1,1,1h4c.55,0,1-.45,1-1V3h3V29Z"/>
+  </g>
+  <g>
+    <rect class="cls-1" x="25.5" y="1" width="2.5" height="30"/>
+    <rect class="cls-1" x="4" y="1" width="2.5" height="30"/>
+  </g>
+</svg>
