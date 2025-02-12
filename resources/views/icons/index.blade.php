@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1 class="text-center mb-4">Ícones</h1>
 
     <!-- Lista de ícones -->
     <div class="row g-4">

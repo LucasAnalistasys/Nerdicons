@@ -13,7 +13,7 @@ class IconController extends Controller
         $files = File::allFiles(public_path('icons'));
         
         // Quantos ícones por página
-        $perPage = 25;  // Definindo 25 ícones por página (5 linhas com 5 ícones)
+        $perPage = 30;  // Definindo 25 ícones por página (5 linhas com 5 ícones)
         
         // Pega o número da página atual, se não existir, assume a página 1
         $page = $request->get('page', 1);
