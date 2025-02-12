@@ -163,3 +163,26 @@ h1 {
     color: white !important; /* Garantir que o texto permaneça branco */
     border-color: #F8435F !important; /* Garantir que a borda seja a mesma cor primária */
 }
+
+/* Efeito de flutuação no hover */
+.icon-item:hover {
+    transform: translateY(-10px); /* Move o ícone para cima */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra para dar o efeito de flutuação */
+}
+
+/* Customização para garantir que a seta "Anterior" e "Próximo" fiquem visualmente desabilitadas */
+.pagination .page-item.disabled .page-link {
+    pointer-events: none; /* Desativa o clique */
+    opacity: 0.5; /* Torna a seta mais transparente quando desabilitada */
+    cursor: not-allowed; /* Altera o cursor para indicar que não pode ser clicado */
+}
+
+/* Certificando-se de que a seta "Anterior" só fique desabilitada na primeira página */
+.pagination .page-item:first-child.disabled .page-link {
+    opacity: 0.3; /* Ajuste de opacidade para a seta "Anterior" na primeira página */
+}
+
+/* Caso a seta "Próximo" também esteja desabilitada */
+.pagination .page-item:last-child.disabled .page-link {
+    opacity: 0.3; /* Ajuste de opacidade para a seta "Próximo" */
+}

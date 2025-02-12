@@ -1,23 +1,63 @@
-@extends('layouts.app') <!-- Extende o layout principal -->
+@extends('layouts.app')
 
-@section('content') <!-- Início da seção de conteúdo que será injetada no layout -->
+@section('content')
     <h1 class="text-center mb-4">Ícones</h1>
-    
-    <!-- Lista de ícones com layout de 5 ícones por linha -->
+
+    <!-- Lista de ícones -->
     <div class="row g-4">
         @foreach($icons as $icon)
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="icon-item">
                     <img src="{{ asset('icons/' . basename($icon)) }}" alt="{{ basename($icon) }}">
                 </div>
-                <p class="icon-name">{{ basename($icon) }}</p> <!-- Nome do ícone fora do container -->
+                <p class="icon-name">{{ basename($icon) }}</p>
             </div>
         @endforeach
     </div>
-    
 
-    <!-- Paginação -->
+    <!-- Paginação Manual -->
     <div class="d-flex justify-content-center mt-4">
-        {{ $icons->links('pagination::bootstrap-5') }}
+        <nav>
+            <ul class="pagination">
+                <!-- Botão "Anterior" -->
+                @if($currentPage > 1)
+                    <li class="page-item">
+                        <a class="page-link" href="{{ route('icons.index', ['page' => $currentPage - 1]) }}" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                @else
+                    <li class="page-item disabled">
+                        <span class="page-link" aria-hidden="true">&laquo;</span>
+                    </li>
+                @endif
+
+                <!-- Exibindo intervalo de páginas -->
+                @php
+                    $startPage = max($currentPage - 3, 1);
+                    $endPage = min($currentPage + 2, $totalPages);
+                @endphp
+
+                @for($i = $startPage; $i <= $endPage; $i++)
+                    <li class="page-item {{ $i == $currentPage ? 'active' : '' }}">
+                        <a class="page-link" href="{{ route('icons.index', ['page' => $i]) }}">{{ $i }}</a>
+                    </li>
+                @endfor
+
+                <!-- Botão "Próximo" -->
+                @if($currentPage < $totalPages)
+                    <li class="page-item">
+                        <a class="page-link" href="{{ route('icons.index', ['page' => $currentPage + 1]) }}" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                @else
+                    <li class="page-item disabled">
+                        <span class="page-link" aria-hidden="true">&raquo;</span>
+                    </li>
+                @endif
+            </ul>
+        </nav>
     </div>
-@endsection <!-- Fim da seção de conteúdo -->
+
+@endsection
