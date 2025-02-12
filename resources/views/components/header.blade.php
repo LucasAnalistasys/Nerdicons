@@ -8,8 +8,11 @@
 
         <!-- Barra de pesquisa à direita -->
         <div class="search-bar">
-            <input type="text" class="form-control" placeholder="Buscar ícones...">
+            <input id="searchInput" type="text" class="form-control" placeholder="Buscar ícones...">
         </div>
     </header>
 
 </div>
+
+<!-- Inclua o script no final da página, antes de </body> -->
+<script src="{{ mix('js/header.js') }}"></script>
