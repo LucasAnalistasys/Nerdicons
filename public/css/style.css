@@ -191,3 +191,30 @@ h1 {
 .pagination .page-item:last-child.disabled .page-link {
     opacity: 0.3; /* Ajuste de opacidade para a seta "Próximo" */
 }
+
+/* Estilo para o botão "Copiar Link" */
+.copy-link {
+    display: block;
+    margin: 10px auto; /* Centraliza o botão em relação ao ícone */
+    padding: 8px 16px; /* Tamanho do botão */
+    background-color: #FD4460; /* Cor primária */
+    color: white; /* Cor do texto */
+    border: none;
+    border-radius: 25px; /* Bordas arredondadas */
+    font-size: 14px; /* Tamanho da fonte */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+/* Estilo para o botão ao passar o mouse (hover) */
+.copy-link:hover {
+    background-color: #1C1C1C; /* Cor secundária ao passar o mouse */
+    transform: translateY(-5px); /* Efeito flutuante */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para o efeito flutuante */
+}
+
+/* Estilo para o botão quando desabilitado */
+.copy-link:disabled {
+    background-color: #D3D3D3; /* Cor para botão desabilitado */
+    cursor: not-allowed;
+}

@@ -10,6 +10,7 @@
                     <img src="{{ asset('icons/' . basename($icon)) }}" alt="{{ basename($icon) }}">
                 </div>
                 <p class="icon-name">{{ pathinfo($icon, PATHINFO_FILENAME) }}</p>
+                <button class="btn btn-primary copy-link" data-link="{{ asset('icons/' . basename($icon)) }}">Copiar Link</button>
             </div>
         @endforeach
     </div>
