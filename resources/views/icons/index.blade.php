@@ -9,7 +9,7 @@
                 <div class="icon-item">
                     <img src="{{ asset('icons/' . basename($icon)) }}" alt="{{ basename($icon) }}">
                 </div>
-                <p class="icon-name">{{ basename($icon) }}</p>
+                <p class="icon-name">{{ pathinfo($icon, PATHINFO_FILENAME) }}</p>
             </div>
         @endforeach
     </div>
