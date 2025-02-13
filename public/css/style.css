@@ -218,3 +218,61 @@ h1 {
     background-color: #D3D3D3; /* Cor para botão desabilitado */
     cursor: not-allowed;
 }
+
+
+/* Tema Claro */
+.light-theme {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Tema Escuro */
+.dark-theme {
+    background-color: #181818;
+    color: #f4f4f4;
+}
+
+/* Alterando os ícones */
+.theme-toggle button {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.dark-theme p {
+    color: white;
+}
+
+.dark-theme .icon-item{
+    background-color: #181818;
+}
+
+.dark-theme .copy-link:hover{
+    background-color: white;
+    color:#181818;
+}
+/* Efeito de levitação nos botões de tema */
+.theme-toggle button {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito de levitação no botão de sol */
+.theme-toggle button:hover {
+    transform: translateY(-5px); /* Levita o botão para cima */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
+}
+
+/* Efeito para o botão de lua com leveza adicional */
+.theme-toggle button:active {
+    transform: translateY(2px); /* Dá a sensação de pressionado */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Menos sombra ao ser pressionado */
+}
+
+.

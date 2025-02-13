@@ -21,3 +21,42 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Seleciona os botões de troca de tema
+const lightButton = document.getElementById("light-theme");
+const darkButton = document.getElementById("dark-theme");
+
+// Função para mudar para o tema claro
+function setLightTheme() {
+    document.body.classList.remove("dark-theme");
+    document.body.classList.add("light-theme");
+}
+
+// Função para mudar para o tema escuro
+function setDarkTheme() {
+    document.body.classList.remove("light-theme");
+    document.body.classList.add("dark-theme");
+}
+
+// Adiciona eventos de clique aos botões
+lightButton.addEventListener("click", setLightTheme);
+darkButton.addEventListener("click", setDarkTheme);
+
+// Se o tema for salvo no localStorage, carrega o tema ao carregar a página
+if (localStorage.getItem("theme") === "dark") {
+    setDarkTheme();
+} else {
+    setLightTheme();
+}
+
+// Salva a escolha do tema no localStorage
+function saveThemePreference() {
+    if (document.body.classList.contains("dark-theme")) {
+        localStorage.setItem("theme", "dark");
+    } else {
+        localStorage.setItem("theme", "light");
+    }
+}
+
+// Ouve mudanças no tema para salvar a preferência
+document.body.addEventListener("classChange", saveThemePreference);
